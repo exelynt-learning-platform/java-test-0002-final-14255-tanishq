@@ -5,9 +5,9 @@ public class Pattern {
 
         for (int i = 1; i <= n; i++) {
 
-            // leading spaces
+            // spaces
             for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
+                System.out.print("  ");
             }
 
             // increasing numbers
